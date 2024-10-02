@@ -1,0 +1,71 @@
+.contact-us-text{
+    text-align: center;
+    padding-top: 60px;
+}
+.contact-us-text h1{
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #101828;
+}
+.contact-us-text p{
+    font-size: 20px;
+    color: #222222;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 15px;
+}
+.contact-us-text button{
+        background-color: transparent;
+    color: #172A6E;
+    padding: 11px 20px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all ease-in .2s;
+}
+.contact-us-text button:hover{
+    background-color: #172A6E;
+    color: white;
+}
+.contacs-main-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    column-gap: 30px;
+    margin-top: 75px
+}
+.contactdata-flex{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.contactdata-flex h4{
+    font-size: 20px;
+    color: #222222;
+    padding-bottom: 10px;
+}
+.contactdata-flex p{
+    max-width: 150px;
+    color: #222222;
+    font-size: 16px;
+    line-height: 17.6px;
+}
+
+@media all and (max-width:768px){
+.contact-us-text h1 {
+    font-size: 40px;
+    line-height: 30.4px;
+}
+.contact-us-text p {
+    font-size: 18px;
+    max-width: 300px;
+}
+.contact-us-text {
+    padding-top: 30px;
+}
+}

@@ -1,0 +1,76 @@
+.main-grid-foter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+}
+.foter-line{
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+.logo-fot{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.logo p{
+    padding-top: 15px;
+    color: #000000;
+    font-size: 16px;
+}
+.grid-1-flex{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+.grid-2{
+    margin-left: 50px;
+}
+.grid-2 h2{
+    font-size: 20px;
+    color: #000000;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 42px;
+    row-gap: 15px;
+    margin-top: 25px;
+
+}
+.links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.copy-foter p{
+    text-align: center;
+    padding-bottom: 15px !important;
+    color: #000000;
+    font-size: 16px;
+    padding: 0px 20px;
+}
+@media all and (max-width:820px){
+    .main-grid-foter{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    margin-top: 40px;
+}
+.grid-1{
+    margin: auto;
+}
+.grid-2{
+    padding-top: 30px;
+    margin: auto;
+}
+.grid-1-flex img{
+    width: 100px;
+}
+}
+@media all and (max-width:540px){
+    .grid-2{
+    margin: auto 0px;
+}
+}

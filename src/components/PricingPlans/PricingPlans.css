@@ -1,0 +1,18 @@
+.pric-plan-one{
+    background-color: #F5F8FF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #DDDDDD
+}
+.pric-plan-one h1{
+    color:#222222 ;
+    font-size: 40px;
+    max-width: 430px;
+    line-height: 52px;
+}
+.pric-plan-one p{
+    line-height: 20.8px;
+    font-size: 16px;
+    color: #222222;
+    padding-top: 15px;
+}

@@ -1,0 +1,48 @@
+.feature h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.feature {
+  font-family: Urbanist;
+  font-weight: 500;
+}
+.feature-color {
+  padding: 25px 50px;
+  margin-top: 30px;
+  background-color: #e9ebff;
+}
+.box {
+  background-color: white;
+  border: 1px solid #d0d5dd;
+  border-radius: 18px;
+  padding: 20px 20px;
+  margin-top: 20px;
+  height: 100%;
+  min-height: 220px;
+  max-height: 220px;
+}
+.box h3 {
+  max-width: 250px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 12px;
+  color: #101828;
+}
+.box p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #101828;
+  padding-top: 6px;
+  max-width: 250px;
+  padding-bottom: 20px;
+}
+
+@media all and (max-width:500px){
+  .feature-color{
+    padding: 25px 10px;
+            padding-bottom: 40px;
+  }
+}

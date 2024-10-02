@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Urbanist;
+    font-weight: 500;
+}
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    
+}

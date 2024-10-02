@@ -1,0 +1,85 @@
+.feat-icons {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 60px;
+}
+.feat-botom {
+  background-color: #fff;
+  margin-top: 70px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #dddddd;
+}
+.featur-text {
+  text-align: center;
+}
+.featur-text h1 {
+  color: #222222;
+  font-size: 56px;
+  line-height: 61.6px;
+}
+.featur-text p {
+  line-height: 31.2px;
+  font-size: 24px;
+  max-width: 1204px;
+  margin: auto;
+  color: #222222;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.btns-fea {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 25px;
+}
+.btns-fea button.try {
+  background: #2c56fe;
+  width: 236px;
+  height: 56px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  cursor: pointer;
+    border-radius: 12px;
+    font-weight: 600;
+
+}
+.flex-btton {
+  display: flex;
+  align-items: center;
+  border: 2px solid #2c56fe;
+  width: 296px;
+  height: 56px;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.flex-btton button {
+  border: none;
+  font-size: 20px;
+  color: #2c56fe;
+  font-weight: 600;
+    cursor: pointer;
+
+}
+@media all and (max-width:540px){
+  .btns-fea{
+    gap: 12px;
+  }
+  .flex-btton {
+    width: 265px;
+  }
+  .featur-text h1 {
+    font-size: 38px;
+    line-height: 30.6px;
+}
+.featur-text p {
+    line-height: 22.2px;
+    font-size: 18px;
+}
+.feat-botom {
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+}

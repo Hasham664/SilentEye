@@ -1,0 +1,154 @@
+.contactinput{
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 80px;
+}
+.contacts-inp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 100px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.contacts-inp-grid-one {
+  text-align: center;
+}
+.contacts-inp-grid-one h1 {
+  font-size: 30px;
+  color: #101828;
+  line-height: 35.2px;
+}
+.contacts-inp-grid-one img {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 508px;
+}
+.contacts-inp-grid-one p {
+  max-width: 500px;
+  margin: auto;
+  color: #222222;
+  font-size: 20px;
+  padding: 13px 0px;
+  line-height: 26px;
+}
+.contacts-inp-grid-two {
+  width: 100%;
+  max-width: 550px;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 12px 40px 0px #0000001f;
+  border-radius: 18px;
+  padding: 15px 30px;
+}
+.contacts-inp-grid-two h1 {
+  text-align: center;
+  color: #101828;
+  font-size: 32px;
+  line-height: 35.2px;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+.contacts-flex-one-inps {
+  gap: 18px;
+  display: flex;
+}
+.contacts-names-inps input {
+  border: 1px solid #dddddd;
+  height: 42px;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 0px 14px;
+  min-width: 235px;
+  outline: none;
+  background-color: #dddddd03;
+  box-shadow: 0px 8px 64px 0px #0000000a;
+}
+.contacts-names-inps {
+  margin-bottom: 20px;
+}
+.contacts-names-inps p {
+  font-size: 16px;
+  color: #222222;
+  font-weight: 600;
+}
+.sub-contact input {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 42px;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 0px 14px;
+  outline: none;
+  background-color: #dddddd03;
+  box-shadow: 0px 8px 64px 0px #0000000a;
+}
+.message-cont p {
+  padding-top: 20px;
+}
+.message-cont textarea {
+  outline: none;
+  padding: 10px 14px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  margin-top: 12px;
+  background-color: #dddddd03;
+  box-shadow: 0px 8px 64px 0px #0000000a;
+}
+
+.inps-cantact-btn {
+  align-items: center;
+  background: #2c56fe;
+  display: flex;
+  width: fit-content;
+  padding: 12px 30px;
+  gap: 15px;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  color: white;
+  margin: auto;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.inps-cantact-btn p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media all and (max-width:1045px){
+    .contacts-inp-grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+.contacts-inp-grid-two{
+    margin: auto;
+}
+}
+@media all and (max-width:600px){
+    
+.contacts-names-inps input {
+    min-width: auto;
+    width: 190px;
+}
+
+}
+@media all and (max-width:502px){
+    .contacts-inp-grid {
+  row-gap: 20px;
+}
+.contacts-names-inps input {
+    min-width: auto;
+    width: 150px;
+}
+.contacts-inp-grid-two {
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 15px 15px;
+}
+.contacts-flex-one-inps {
+    gap: 8px;
+}
+.contacts-inp-grid-two h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+}
